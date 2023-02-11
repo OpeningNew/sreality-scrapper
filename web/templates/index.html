@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <center><h1>{% block title %} Properties {% endblock %}</h1></center>
+    {% for property in properties %}
+        <div class='property'>
+            <h3>{{ property[0] }} | {{ property[1] }} | {{ property[2] }} | {{ property[3] }}</h3>
+            <img src="{{ property[4] }}" alt="Property has no images"/>
+        </div>
+    {% endfor %}
+{% endblock %}
