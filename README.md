@@ -1,4 +1,4 @@
-# Luxonis - test task
+# Sreality scrapper
 
 ## Original task
 
