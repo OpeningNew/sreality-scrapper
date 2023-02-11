@@ -22,7 +22,7 @@ services:
   webapp:
     build: web/
     environment:
-      FLASK_DEBUG: true
+      FLASK_DEBUG: "true"
       FLASK_APP: app
       FLASK_RUN_HOST: 0.0.0.0
     ports:
